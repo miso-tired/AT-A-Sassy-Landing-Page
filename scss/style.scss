@@ -30,6 +30,27 @@ a {
     align-items: center;
     justify-content: space-between;
   }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  }
+
+  li {
+    padding: 10px;
+  }
+
+  &-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  img {
+    width: 50%;
+  }
+
 }
 
 // This code is related to some of the aspects of SCSS we have yet to cover.
