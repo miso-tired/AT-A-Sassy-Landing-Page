@@ -50,6 +50,7 @@ img {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 .hero {
@@ -76,6 +77,9 @@ a {
 }
 .hero img {
   width: 50%;
+}
+.hero a {
+  color: white;
 }
 
 .m-1 {
